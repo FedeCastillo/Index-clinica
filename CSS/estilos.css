@@ -1,0 +1,111 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: orange;
+}
+.container {
+  background-color: orange;
+}
+.container__header h1 {
+  text-align: left;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 5px;
+  top: -90px;
+}
+.container__informacion {
+  float: right;
+  position: relative;
+  top: -70px;
+  left: -30px;
+}
+.nav__ul {
+  background-color: black;
+
+  height: 30px;
+  justify-content: space-evenly;
+}
+.menu {
+  background-color: black;
+  height: 55px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.menu a {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  justify-content: space-between;
+}
+.menu a:hover {
+  color: brown;
+}
+.container-iconos {
+  color: white;
+  position: relative;
+  float: right;
+  display: inline-flex;
+  position: relative;
+  top: -65px;
+}
+.container-iconos a {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.container-iconos a::visited {
+  color: blue;
+}
+.imagen-central img {
+  width: 100%;
+  height: 841px;
+  object-fit: cover;
+  text-align: center;
+}
+.imagen-secundaria {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+.contenedor-p {
+  margin: 1.5px;
+  background-color: lightsalmon;
+  text-align: center;
+  transition: all 2.3s;
+}
+.contenedor-p__p {
+  color: black;
+}
+.boton {
+  border: 5px solid;
+  border-radius: 20px;
+  margin: auto;
+
+  padding: 5px;
+  text-align: center;
+  background-color: green;
+  width: 10%;
+  font-weight: 700;
+}
+.boton__a {
+  color: rgb(227, 235, 238);
+  text-decoration: none;
+  text-align: center;
+  height: 90px;
+}
+
+.contenedor3 {
+  margin: 130px;
+  height: 300px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.redes {
+  width: 100%;
+}
